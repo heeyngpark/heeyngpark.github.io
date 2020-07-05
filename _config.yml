@@ -8,7 +8,7 @@ logo_url:           https://avatars0.githubusercontent.com/u/22339682?v=4 # Get 
 url:                https://heeyngpark.github.io # main url
 baseurl:            /
 permalink:          /:title # Post permalink
-timezone:           Asia/South_Korea # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+timezone:           Asia/Seoul # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 mathjax:            true  # enables support for mathjax - set to 'false' to disable
 
 # Site Build
@@ -24,6 +24,7 @@ include:            [ "robots.txt" ]
 exclude:            [ "LICENSE", "README.md", "CNAME", "vendor", "Gemfile", "script" ]
 plugins:
   - jekyll-sitemap
+  - jekyll-remote-theme
 
 
 
