@@ -12,8 +12,6 @@ title: About
 
 Research interests: Psychology, NLP, Sentiment Analysis, HR, HRD (Human Resource Digital trasformation)
 
-Skills: Python, R, 새로운 환경에의 적응력
-
 Likes🥰: 👩‍💻 ✍️ 🍾 🩰 🏊‍♀ 🥕 🍒 🐬 & 🤖R2D2🤖
 
 Contacts: heeyng.park@gmail.com
