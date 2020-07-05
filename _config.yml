@@ -1,0 +1,45 @@
+# Site Info
+title:              "박희영 hee yng park"
+description:        "히영 공부 기록"
+author_name:        "박희영 Hee Young Park" # change this to your name
+logo_url:           https://avatars0.githubusercontent.com/u/22339682?v=4 # Get it from GitHub API: https://api.github.com/users/<username>
+
+# Site Settings
+url:                https://heeyngpark.github.io # main url
+baseurl:            /
+permalink:          /:title # Post permalink
+timezone:           Asia/South_Korea # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+mathjax:            true  # enables support for mathjax - set to 'false' to disable
+
+# Site Build
+highlighter:        rouge
+markdown:           kramdown
+kramdown:
+    input:          GFM
+sass:
+    style:          :compressed
+
+# Other Params
+include:            [ "robots.txt" ]
+exclude:            [ "LICENSE", "README.md", "CNAME", "vendor", "Gemfile", "script" ]
+plugins:
+  - jekyll-sitemap
+
+
+
+defaults:
+  -
+    scope:
+      path:         ""
+    values:
+      layout:       "null"
+  -
+    scope:
+      type:         "pages"
+    values:
+      layout:       "page"
+  -
+    scope:
+      type:         "posts"
+    values:
+      layout:       "post"
